@@ -1,0 +1,16 @@
+intents:
+  - greet
+  - bye
+  - thank
+  - faq
+
+actions:
+  - respond_faq
+
+responses:
+  utter_noworries:
+    - text: Geen zorgen, de meeste mensen zijn smerige varkens. 
+  utter_greet:
+    - text: Hoi, ik ben de smerig-bot!
+  utter_bye:
+    - text: Doei smeerlap!
