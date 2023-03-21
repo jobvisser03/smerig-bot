@@ -5,14 +5,14 @@ description = ""
 authors = ["jobvisser03 <jobvisserhcm@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "3.7.6"
-cryptography = "2.9.0"
-tensorflow = "2.1.0"
-rasa = "^1.9.6"
-beautifulsoup4 = "^4.9.0"
-jupyterlab = "^2.1.0"
-lxml = "^4.5.0"
-pandas = "^1.0.3"
+python = "~3.7"
+cryptography = "*"
+tensorflow = "*"
+rasa = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+pandas = "*"
+rasa-x = {url = "https://pypi.rasa.com/api/package/rasa-x/rasa_x-1.1.4-py3-none-any.whl"}
 
 [tool.poetry.dev-dependencies]
 

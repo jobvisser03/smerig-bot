@@ -1,16 +1,20 @@
+session_config:
+  session_expiration_time: 0
+  carry_over_slots_to_new_session: true
 intents:
-  - greet
-  - bye
-  - thank
-  - faq
-
-actions:
-  - respond_faq
-
+- greet
+- bye
+- thank
+- faq
 responses:
   utter_noworries:
-    - text: Geen zorgen, de meeste mensen zijn smerige varkens. 
+  - text: Geen zorgen, de meeste mensen zijn smerige varkens.
   utter_greet:
-    - text: Hoi, ik ben de smerig-bot!
+  - text: Hoi, ik ben de smerig-bot!
   utter_bye:
-    - text: Doei smeerlap!
+  - text: Doei smeerlap!
+actions:
+- respond_faq
+- utter_noworries
+- utter_greet
+- utter_bye
